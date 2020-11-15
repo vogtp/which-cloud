@@ -10,7 +10,7 @@ from .providers import Providers
 class WhichCloud:
     """
     >>> whichCloud = WhichCloud()
-    >>> whichCloud.is('123.123.123.123')
+    >>> whichCloud.is_ip('123.123.123.123')
     """
 
     def __init__(self):
@@ -24,7 +24,7 @@ class WhichCloud:
             aws_ips, azure_ips, gcp_ips = pickle.load(f)
             return aws_ips, azure_ips, gcp_ips
 
-    def is(self, ip):
+    def is_ip(self, ip):
         if ip in self.__aws_ips:
             return Providers.AWS
         if ip in self.__azure_ips:
