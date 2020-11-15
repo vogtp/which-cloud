@@ -46,5 +46,6 @@ setup(
     author_email="dev@soundon.fm",
     packages=["which_cloud"],
     package_data={"which_cloud": ["data/*"],},
+    install_requires=["netaddr>=0.8.0"],
     python_requires=">=3.5",
 )
