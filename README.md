@@ -2,6 +2,17 @@
 
 Given an ip address, return which cloud provider it belongs to.
 
+## Usage
+
+```python
+from which_cloud import WhichCloud, Providers
+
+wc = WhichCloud()
+wc.is_ip('52.94.76.10') # Providers.AWS
+wc.is_ip('104.214.20.0') # Providers.AZURE
+wc.is_ip('35.185.160.160') # Providers.GCP
+```
+
 ## Preprocess
 
 Convert raw ip ranges of different platforms into a single pickle file to speed up data load time.
