@@ -1,4 +1,4 @@
-import codecs
+cd import codecs
 import os
 
 from setuptools import setup

@@ -32,7 +32,7 @@ Convert raw ip ranges of different platforms into a single pickle file to speed 
 ### Azure
 
 - document: <https://www.microsoft.com/en-us/download/details.aspx?id=56519>
-- data: <https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20201109.json>
+- data: <https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20210329.json>
 
 ### Digital Ocean
 
